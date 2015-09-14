@@ -4,36 +4,36 @@ from pymongo import MongoClient
 client = MongoClient()
 db = client.presidentSites
 pages = db.pages
-count = 0
+count = 1
 linksToFollow = []
-baseURL = 'https://www.scottwalker.com'
+baseURL = 'http://mikehuckabee.com'
 extension = '/news'
 currentURL = baseURL + extension
-while(count < 9):
+while(count < 6):
+    print currentURL
     r = requests.get(currentURL)
     soup = BeautifulSoup(r.text,"html.parser")
-    allText = soup.get_text()
-    soup = soup.select_one('div#news')
-    articles = soup.find_all('article', 'post')
+    soup = soup.select_one('div#copy div.recordList')
+    articles = soup.find_all('article')
     for article in articles:
-        title = article.select_one('header h4')
-        extension = article.select_one('header h4 a')
-        summary = article.select_one('div.details')
-        topics = article.select_one('dl.topics dd ul li')
+        title = article.select_one('h1')
+        href = article.select_one('h1 a')
+        summary = article.select_one('div.media')
+        published = article.select_one('h4 span.date')
         linksToFollow.append({
             'title': title.get_text() if title else '',
-            'href' : baseURL + extension.get('href') if extension else '',
+            'href' : baseURL + href.get('href') if href else '',
             'summary' : summary.get_text() if summary else '',
-            'topics' : topics.get_text() if topics else '',
-            'candidate' : 'Scott Walker'
+            'published' : published.get_text() if published else '',
+            'candidate' : 'Mike Huckabee'
         })
     count+=1
-    print count
     extension = '/news?page=' + str(count)
     currentURL = baseURL + extension
 for link in linksToFollow:
     if pages.find_one({'href' : link.get('href')}):
-        link['noprocess'] = true
+        link['noprocess'] = True
+        print link.get('href')
     else:
         link['_id'] = pages.insert_one(link).inserted_id
 for link in linksToFollow:
@@ -41,7 +41,8 @@ for link in linksToFollow:
         continue
     r = requests.get(link.get('href'))
     soup = BeautifulSoup(r.text,"html.parser")
-    text = soup.select_one('div#news-article article.post.overview div.details')
+    all_text = ''
+    text = soup.select_one('article.post div.content')
     text = text.get_text() if text else ''
     if(text and len(text) > 0):
         pages.update_one( {'_id': link.get('_id')}, { '$set' : {'text' : text} } )
