@@ -1,0 +1,167 @@
+/***************************************** INITIAL RESULTS ************************************/
+------BERNIE SANDERS-------
+52259
+4766
+_______________________
+# 20 Most Common Words #
+[(u'sanders', 672), (u'said', 324), (u'people', 322), (u'bernie', 308), (u'campaign', 217), (u'country', 179), (u'new', 141), (u'american', 137), (u'iowa', 131), (u'time', 130), (u'percent', 123), (u'presidential', 122), (u'would', 120), (u'democratic', 115), (u'americans', 115), (u'also', 115), (u'jobs', 114), (u'united', 113), (u'one', 111), (u'states', 111), (u'america', 108), (u'class', 105), (u'wage', 98), (u'workers', 95), (u'state', 95), (u'working', 94), (u'000', 91), (u'need', 90), (u'president', 89), (u'nation', 88), (u'candidate', 87), (u'first', 87), (u'care', 85), (u'income', 85), (u'political', 83), (u'sen', 80), (u'u', 79), (u'security', 78), (u'social', 77), (u'millions', 76), (u'public', 73), (u'called', 73), (u'crowd', 72), (u'1', 72), (u'meeting', 72), (u'must', 71), (u'change', 71), (u'today', 71), (u'big', 71), (u'system', 71)]
+# BIGRAMS #
+[(u'bernie', u'sanders'), (u'united', u'states'), (u'social', u'security'), (u'sanders', u'said'), (u'minimum', u'wage'), (u'middle', u'class'), (u'new', u'hampshire'), (u'sen', u'bernie'), (u'health', u'care'), (u'presidential', u'candidate'), (u'wall', u'street'), (u'south', u'carolina'), (u'democratic', u'party'), (u'climate', u'change'), (u'tuition', u'free'), (u'supreme', u'court'), (u'working', u'families'), (u'billionaire', u'class'), (u'hillary', u'clinton'), (u'regular', u'updates'), (u'political', u'revolution'), (u'afl', u'cio'), (u'town', u'meeting'), (u'des', u'moines'), (u'public', u'colleges'), (u'party', u'presidential'), (u'cedar', u'rapids'), (u'criminal', u'justice'), (u'african', u'american'), (u'get', u'regular'), (u'citizens', u'united'), (u'retirement', u'age'), (u'single', u'payer'), (u'berniesanders', u'august'), (u'income', u'inequality'), (u'crumbling', u'roads'), (u'civil', u'rights'), (u'paying', u'jobs'), (u'jeb', u'bush'), (u'pay', u'equity')]
+# TRIGRAMS #
+[(u'bernie', u'sanders', u'said'), (u'sen', u'bernie', u'sanders'), (u'bernie', u'sanders', u'told'), (u'candidate', u'bernie', u'sanders'), (u'bernie', u'sanders', u'berniesanders'), (u'debatewithbernie', u'bernie', u'sanders'), (u'bernie', u'sanders', u'spoke'), (u'touch', u'bernie', u'sanders'), (u'bernie', u'sanders', u'issued'), (u'hear', u'bernie', u'sanders'), (u'bernie', u'sanders', u'calls'), (u'bernie', u'sanders', u'returned'), (u'bernie', u'sanders', u'called'), (u'bernie', u'sanders', u'campaign'), (u'bernie', u'sanders', u'took'), (u'bernie', u'sanders', u'ask'), (u'bernie', u'sanders', u'tell'), (u'social', u'security', u'benefits'), (u'bernie', u'sanders', u'talk'), (u'bernie', u'sanders', u'supporters')]
+# Sentiment #
+{'positive': 1118.9470000000001, 'negative': 729.678, 'subjective': 1848.625, 'objective': 24987.375, 'total': -0.34375, }
+
+
+------BEN CARSON-------
+2842
+1089
+_______________________
+# 20 Most Common Words #
+[(u'carson', 46), (u'read', 27), (u'ben', 24), (u'presidential', 17), (u'republican', 14), (u'debate', 14), (u'dr', 13), (u'trump', 12), (u'first', 12), (u'america', 11), (u'people', 11), (u'said', 10), (u'poll', 10), (u'candidate', 10), (u'campaign', 8), (u'committee', 8), (u'gop', 8), (u'news', 8), (u'second', 7), (u'new', 7), (u'president', 7), (u'national', 7), (u'years', 6), (u'one', 6), (u'exploratory', 6), (u'won', 6), (u'fetal', 6), (u'donald', 6), (u'neurosurgeon', 6), (u'us', 6), (u'wife', 6), (u'candidates', 5), (u'planned', 5), (u'political', 5), (u'tissue', 5), (u'without', 5), (u'retired', 5), (u'know', 5), (u'crowd', 5), (u'parenthood', 5), (u'time', 5), (u'research', 4), (u'bouwsma', 4), (u'thursday', 4), (u'race', 4), (u'video', 4), (u'public', 4), (u'two', 4), (u'network', 4), (u'announced', 4)]
+# BIGRAMS #
+[(u'ben', u'carson'), (u'exploratory', u'committee'), (u'presidential', u'candidate'), (u'planned', u'parenthood'), (u'donald', u'trump'), (u'republican', u'presidential'), (u'retired', u'neurosurgeon'), (u'fetal', u'tissue'), (u'founding', u'fathers'), (u'grand', u'rapids'), (u'gravis', u'marketing'), (u'monmouth', u'university'), (u'nuclear', u'arms'), (u'soft', u'spoken'), (u'news', u'network'), (u'election', u'commission'), (u'federal', u'election'), (u'marco', u'rubio'), (u'rand', u'paul'), (u'south', u'carolina'), (u'one', u'america'), (u'candidate', u'ben'), (u'new', u'hampshire'), (u'new', u'york'), (u'breitbart', u'news'), (u'gop', u'nomination'), (u'true', u'debt'), (u'america', u'news'), (u'straw', u'poll'), (u'first', u'quarter'), (u'gop', u'debate'), (u'later', u'bouwsma'), (u'medical', u'research'), (u'years', u'ago'), (u'national', u'polls'), (u'done', u'without'), (u'neurosurgeon', u'ben'), (u'gop', u'presidential'), (u'presidential', u'field'), (u'without', u'fetal')]
+# TRIGRAMS #
+[(u'candidate', u'ben', u'carson'), (u'neurosurgeon', u'ben', u'carson'), (u'republican', u'presidential', u'candidate'), (u'presidential', u'candidate', u'ben'), (u'america', u'exploratory', u'committee'), (u'republican', u'presidential', u'field'), (u'presidential', u'exploratory', u'committee'), (u'retired', u'neurosurgeon', u'ben'), (u'without', u'fetal', u'tissue'), (u'america', u'news', u'network'), (u'one', u'america', u'news'), (u'federal', u'election', u'commission'), (u'news', u'network', u'poll'), (u'done', u'without', u'fetal'), (u'carson', u'america', u'exploratory')]
+# Sentiment #
+{'positive': 68.375, 'negative': 38.125, 'subjective': 106.5, 'objective': 1343.5, 'total': -0.421875, }
+
+--------Chris Christie--------
+4549
+1505
+_______________________
+# 20 Most Common Words #
+[(u'christie', 105), (u'new', 59), (u'governor', 46), (u'chris', 39), (u'hampshire', 36), (u'former', 32), (u'watch', 30), (u'state', 27), (u'president', 24), (u'va', 24), (u'town', 18), (u'republican', 17), (u'jersey', 17), (u'county', 16), (u'hall', 16), (u'r', 15), (u'representative', 15), (u'leaders', 14), (u'read', 13), (u'chairman', 13), (u'fox', 12), (u'councilor', 12), (u'gov', 11), (u'week', 11), (u'local', 11), (u'rockingham', 10), (u'st', 10), (u'scott', 10), (u'clinton', 10), (u'executive', 10), (u'tom', 9), (u'mclean', 9), (u'3', 9), (u'iowa', 9), (u'justice', 9), (u'presidential', 9), (u'national', 9), (u'washington', 9), (u'david', 8), (u'john', 8), (u'attorney', 8), (u'nh', 8), (u'nj', 8), (u'hilliard', 8), (u'part', 8), (u'bill', 8), (u'dan', 8), (u'sheriff', 8), (u'leader', 8), (u'hilaire', 7)]
+# BIGRAMS #
+[(u'new', u'hampshire'), (u'chris', u'christie'), (u'town', u'hall'), (u'state', u'representative'), (u'new', u'jersey'), (u'governor', u'christie'), (u'rockingham', u'county'), (u'executive', u'councilor'), (u'criminal', u'justice'), (u'law', u'enforcement'), (u'gov', u'chris'), (u'kevin', u'coyle'), (u'sheriff', u'scott'), (u'scott', u'hilliard'), (u'commissioner', u'kevin'), (u'national', u'finance'), (u'tom', u'tombarello'), (u'cedar', u'falls'), (u'des', u'moines'), (u'commission', u'chairman'), (u'dick', u'anagnost'), (u'union', u'leader'), (u'county', u'commission'), (u'hall', u'meeting'), (u'hilaire', u'rockingham'), (u'county', u'commissioner'), (u'hall', u'meetings'), (u'six', u'years'), (u'fox', u"news'"), (u'former', u'state'), (u'chairman', u'tom'), (u'bill', u'greiner'), (u'american', u'people'), (u'justice', u'system'), (u'moines', u'register'), (u'reuters', u'ipsos'), (u'ipsos', u'poll'), (u'hillary', u'clinton'), (u'endorse', u'chris'), (u'jersey', u'gov')]
+# TRIGRAMS #
+[(u'new', u'hampshire', u'including'), (u'new', u'hampshire', u'business'), (u'former', u'new', u'hampshire'), (u'gov', u'chris', u'christie'), (u'new', u'hampshire', u'leaders'), (u'new', u'hampshire', u'gop'), (u'new', u'hampshire', u'union'), (u'new', u'hampshire', u'executive'), (u'new', u'hampshire', u'town'), (u'endorse', u'chris', u'christie'), (u'watch', u'chris', u'christie'), (u'chris', u'christie', u'dan'), (u'chris', u'christie', u'take'), (u'video', u'chris', u'christie'), (u'governor', u'chris', u'christie'), (u'town', u'hall', u'meeting'), (u'town', u'hall', u'meetings'), (u'former', u'state', u'representative'), (u'hampshire', u'town', u'hall'), (u'new', u'jersey', u'gov')]
+# Sentiment #
+{'positive': 95.125, 'negative': 45.5, 'subjective': 140.625, 'objective': 2301.375, 'total': 1.546875, }
+
+-------TED CRUZ--------
+Ted Cruz
+90903
+8520
+_______________________
+# 20 Most Common Words #
+[(u'cruz', 1237), (u'state', 463), (u'ted', 420), (u'county', 415), (u'texas', 415), (u'president', 352), (u'sen', 345), (u'said', 289), (u'republican', 284), (u'campaign', 281), (u'chair', 257), (u'conservative', 250), (u'u', 238), (u'people', 224), (u'one', 213), (u'leadership', 207), (u'america', 191), (u'today', 181), (u'senator', 181), (u'washington', 179), (u'would', 177), (u'new', 176), (u'team', 173), (u'houston', 170), (u'co', 169), (u'states', 163), (u'iowa', 159), (u'time', 154), (u'party', 154), (u'liberty', 147), (u'r', 147), (u'support', 146), (u'first', 145), (u'candidate', 133), (u'american', 132), (u'government', 127), (u'national', 126), (u'country', 125), (u'obama', 121), (u'iran', 120), (u'years', 119), (u'also', 119), (u'presidential', 113), (u'pastor', 112), (u'deal', 112), (u'us', 111), (u'former', 110), (u'senate', 110), (u'two', 108), (u'gop', 107)]
+# BIGRAMS #
+[(u'ted', u'cruz'), (u'houston', u'texas'), (u'sen', u'ted'), (u'leadership', u'team'), (u'united', u'states'), (u'south', u'carolina'), (u'new', u'hampshire'), (u'religious', u'liberty'), (u'supreme', u'court'), (u'des', u'moines'), (u'following', u'statement'), (u'county', u'chair'), (u'tea', u'party'), (u'sen', u'cruz'), (u'planned', u'parenthood'), (u'republican', u'party'), (u'texas', u'today'), (u'polk', u'county'), (u'president', u'obama'), (u'washington', u'cartel'), (u'new', u'york'), (u'common', u'core'), (u'radical', u'islamic'), (u'american', u'people'), (u'state', u'leadership'), (u'national', u'security'), (u'courageous', u'conservatives'), (u'hillary', u'clinton'), (u'jeb', u'bush'), (u'york', u'times'), (u'islamic', u'terrorism'), (u'county', u'pastor'), (u'conservative', u'activist'), (u'bus', u'tour'), (u'van', u'buren'), (u'county', u'state'), (u'tedcruz', u'org'), (u'state', u'representative'), (u'republican', u'nomination'), (u'business', u'owner')]
+# TRIGRAMS #
+[(u'sen', u'ted', u'cruz'), (u'ted', u'cruz', u'said'), (u'senator', u'ted', u'cruz'), (u'ted', u'cruz', u'campaign'), (u'said', u'ted', u'cruz'), (u'endorse', u'ted', u'cruz'), (u'analytics', u'ted', u'cruz'), (u'ted', u'cruz', u'rallies'), (u'ted', u'cruz', u'made'), (u'ted', u'cruz', u'says'), (u'ohio', u'ted', u'cruz'), (u'support', u'ted', u'cruz'), (u'ted', u'cruz', u'gets'), (u'ted', u'cruz', u'embraces'), (u'times', u'ted', u'cruz'), (u'ted', u'cruz', u'makes'), (u'doubt', u'ted', u'cruz'), (u'ted', u'cruz', u'email'), (u'post', u'ted', u'cruz'), (u'ted', u'cruz', u'would')]
+# Sentiment #
+{'positive': 1813.375, 'negative': 1092.0, 'subjective': 2905.375, 'objective': 41598.625, 'total': 17.65625,}
+
+
+---------HILLARY CLINTON---------
+Hillary Clinton
+41805
+5732
+_______________________
+# 20 Most Common Words #
+[(u'\xe2', 473), (u'clinton', 338), (u'hillary', 232), (u'state', 162), (u'new', 109), (u'department', 105), (u'would', 105), (u'plan', 103), (u'work', 92), (u'emails', 91), (u'president', 90), (u'americans', 89), (u'said', 88), (u'people', 83), (u'republican', 74), (u'bush', 71), (u'one', 63), (u'federal', 62), (u'walker', 62), (u'american', 62), (u'college', 62), (u'times', 59), (u"clinton's", 59), (u'campaign', 59), (u'email', 57), (u'de', 57), (u'iran', 57), (u'policy', 57), (u'secretary', 56), (u'care', 56), (u'support', 55), (u'need', 55), (u'time', 54), (u'15', 54), (u'women', 54), (u'also', 53), (u'government', 53), (u'make', 52), (u'first', 52), (u'every', 52), (u'public', 51), (u'republicans', 51), (u'states', 50), (u'jeb', 49), (u'economy', 49), (u'term', 49), (u'country', 48), (u'many', 47), (u'america', 47), (u'health', 46)]
+# BIGRAMS #
+[(u'hillary', u'clinton'), (u'state', u'department'), (u'jeb', u'bush'), (u'scott', u'walker'), (u'profit', u'sharing'), (u'marco', u'rubio'), (u'puerto', u'rico'), (u'long', u'term'), (u'donald', u'trump'), (u'climate', u'change'), (u'college', u'compact'), (u'united', u'states'), (u'new', u'york'), (u'ted', u'cruz'), (u'chris', u'christie'), (u'foreign', u'policy'), (u'rand', u'paul'), (u'planned', u'parenthood'), (u'higher', u'education'), (u'clean', u'energy'), (u'capital', u'gains'), (u'supreme', u'court'), (u'work', u'related'), (u'new', u'college'), (u'rick', u'perry'), (u'printed', u'copies'), (u'federal', u'records'), (u'health', u'care'), (u'mike', u'huckabee'), (u'middle', u'class'), (u'affordable', u'care'), (u'middle', u'east'), (u'inspectors', u'general'), (u'everyday', u'americans'), (u'rick', u'santorum'), (u'select', u'committee'), (u'campaign', u'finance'), (u'related', u'emails'), (u'wall', u'street'), (u'care', u'act')]
+# TRIGRAMS #
+[(u'hillary', u'clinton', u'announced'), (u'hillary', u'clinton', u'believes'), (u'today', u'hillary', u'clinton'), (u'hillary', u'clinton', u'outlined'), (u'hillary', u'clinton', u'knows'), (u'career', u'hillary', u'clinton'), (u'hillary', u'clinton', u'laid'), (u'hillary', u'clinton', u'introduced'), (u'hillary', u'clinton', u'released'), (u'hillary', u'clinton', u'launched'), (u'week', u'hillary', u'clinton'), (u'rights', u'hillary', u'clinton'), (u'hillary', u'clinton', u'called'), (u'hillary', u'clinton', u'delivered'), (u'carolina', u'hillary', u'clinton'), (u'supporting', u'hillary', u'clinton'), (u'hillary', u'clinton', u'held'), (u'state', u'hillary', u'clinton'), (u'speech', u'hillary', u'clinton'), (u'hillary', u'clinton', u'fought')]
+# Sentiment #
+{'positive': 999.583, 'negative': 650.792, 'subjective': 1650.375, 'objective': 18691.625, 'total': 7.390625, }
+
+------John Kasich-------
+13984
+2764
+_______________________
+# 20 Most Common Words #
+[(u'kasich', 230), (u'new', 114), (u'john', 108), (u'ohio', 94), (u'hampshire', 86), (u'governor', 75), (u'state', 75), (u'republican', 73), (u'president', 58), (u'said', 49), (u'budget', 46), (u'america', 40), (u'house', 40), (u'gov', 39), (u'years', 37), (u'former', 37), (u'twitterfacebook', 37), (u'campaign', 33), (u'presidential', 32), (u'national', 32), (u'leader', 32), (u'people', 29), (u'today', 29), (u'one', 29), (u'm', 27), (u'time', 27), (u'country', 26), (u'first', 26), (u'get', 25), (u'need', 25), (u'team', 24), (u'leadership', 24), (u'help', 24), (u'committee', 24), (u'candidate', 23), (u'policy', 22), (u'nation', 22), (u'going', 22), (u'experience', 22), (u'like', 22), (u'gop', 21), (u'served', 21), (u'serve', 20), (u'bush', 20), (u'together', 20), (u'candidates', 20), (u'u', 20), (u'states', 20), (u'must', 19), (u'federal', 19)]
+# BIGRAMS #
+[(u'new', u'hampshire'), (u'john', u'kasich'), (u'foreign', u'policy'), (u'national', u'security'), (u'majority', u'leader'), (u'united', u'states'), (u'federal', u'budget'), (u'gov', u'john'), (u'next', u'president'), (u'armed', u'services'), (u'new', u'york'), (u'governor', u'john'), (u'white', u'house'), (u'ohio', u'governor'), (u'trent', u'lott'), (u'ohio', u'gov'), (u'tom', u'rath'), (u'entire', u'article'), (u'endorsed', u'ohio'), (u'services', u'committee'), (u'cut', u'taxes'), (u'jeb', u'bush'), (u'senate', u'majority'), (u'economic', u'growth'), (u'mentally', u'ill'), (u'twitterfacebook', u'icymi'), (u'wall', u'street'), (u'last', u'week'), (u'house', u'armed'), (u'south', u'carolina'), (u'compassionate', u'conservatism'), (u'track', u'record'), (u'mitt', u'romney'), (u'american', u'dream'), (u'vice', u'chair'), (u'policy', u'experience'), (u'attorney', u'general'), (u'granite', u'state'), (u'stella', u'scamman'), (u'super', u'pac')]
+# TRIGRAMS #
+[(u'new', u'hampshire', u'gop'), (u'new', u'hampshire', u'republican'), (u'new', u'hampshire', u'politics'), (u'new', u'hampshire', u'house'), (u'new', u'hampshire', u'poll'), (u'prominent', u'new', u'hampshire'), (u'twitterfacebook', u'new', u'hampshire'), (u'new', u'hampshire', u'attorney'), (u'today', u'new', u'hampshire'), (u'new', u'hampshire', u'campaign'), (u'new', u'hampshire', u'state'), (u'former', u'new', u'hampshire'), (u'state', u'new', u'hampshire'), (u'gov', u'john', u'kasich'), (u'governor', u'john', u'kasich'), (u'thinks', u'john', u'kasich'), (u'think', u'john', u'kasich'), (u'john', u'kasich', u'kasich'), (u'needs', u'john', u'kasich'), (u'committee', u'john', u'kasich')]
+# Sentiment #
+{'positive': 338.375, 'negative': 173.625, 'subjective': 512.0, 'objective': 6382.0, 'total': 2.75, }
+
+------Marco Rubio--------
+42569
+5118
+_______________________
+# 20 Most Common Words #
+[(u'american', 207), (u'marco', 172), (u'president', 168), (u'new', 154), (u'iran', 138), (u'world', 128), (u'people', 125), (u'america', 120), (u'century', 111), (u'one', 99), (u'state', 98), (u'economy', 90), (u'would', 87), (u'americans', 87), (u'must', 86), (u'today', 85), (u'time', 82), (u'jobs', 82), (u'rubio', 81), (u'government', 81), (u'obama', 80), (u'deal', 77), (u'life', 76), (u'need', 74), (u'make', 73), (u'us', 73), (u'every', 67), (u'china', 64), (u'years', 63), (u'first', 63), (u'nation', 61), (u'higher', 61), (u'many', 57), (u'nuclear', 57), (u'education', 56), (u'future', 55), (u'also', 55), (u'economic', 55), (u'like', 55), (u'right', 54), (u'u', 54), (u'believe', 54), (u'country', 53), (u'dream', 53), (u'energy', 53), (u'tax', 53), (u'states', 51), (u'even', 50), (u'last', 49), (u'security', 48)]
+# BIGRAMS #
+[(u'hillary', u'clinton'), (u'united', u'states'), (u'american', u'dream'), (u'21st', u'century'), (u'president', u'obama'), (u'higher', u'education'), (u'marco', u'rubio'), (u'middle', u'class'), (u'south', u'carolina'), (u'middle', u'east'), (u'foreign', u'policy'), (u'american', u'century'), (u'human', u'rights'), (u'obama', u'administration'), (u'education', u'system'), (u'new', u'hampshire'), (u'national', u'security'), (u'new', u'american'), (u'tax', u'code'), (u'planned', u'parenthood'), (u'des', u'moines'), (u'white', u'house'), (u'presidential', u'candidate'), (u'pic', u'twitter'), (u'supreme', u'court'), (u'federal', u'government'), (u'originally', u'published'), (u'next', u'president'), (u'town', u'hall'), (u'last', u'week'), (u'nuclear', u'weapons'), (u'paying', u'jobs'), (u'economic', u'growth'), (u'twitter', u'com'), (u'student', u'loans'), (u'new', u'york'), (u'american', u'strength'), (u'american', u'people'), (u'consumer', u'centered'), (u'health', u'care')]
+# TRIGRAMS #
+[(u'higher', u'education', u'system'), (u'new', u'american', u'century'), (u'revitalized', u'american', u'dream'), (u'marco', u'rubio', u'originally'), (u'senator', u'marco', u'rubio'), (u'american', u'dream', u'today'), (u'higher', u'education', u'agendas'), (u'theocrats', u'president', u'obama'), (u'endorse', u'marco', u'rubio'), (u'21st', u'century', u'energy'), (u'21st', u'century', u'economic'), (u'marco', u'rubio', u'marcorubio'), (u'president', u'obama', u'announced'), (u'outdated', u'higher', u'education'), (u'regime', u'president', u'obama'), (u'week', u'president', u'obama'), (u'make', u'higher', u'education'), (u'vibrant', u'middle', u'class'), (u'middle', u'class', u'jobs'), (u'hampshire', u'south', u'carolina')]
+# Sentiment #
+{'positive': 1121.1390000000001, 'negative': 696.861, 'subjective': 1818.0, 'objective': 18604.0, 'total': 18.84375, }
+
+
+-------Donalt Trump--------
+142401
+9785
+_______________________
+# 20 Most Common Words #
+[(u'trump', 2691), (u'said', 905), (u'percent', 743), (u'republican', 632), (u'donald', 578), (u'people', 505), (u'new', 449), (u'presidential', 410), (u'read', 388), (u'would', 383), (u'bush', 361), (u'voters', 356), (u'president', 346), (u'one', 336), (u'like', 320), (u'country', 298), (u'candidate', 288), (u'poll', 286), (u'gop', 280), (u'campaign', 277), (u'immigration', 253), (u'candidates', 245), (u'make', 240), (u'republicans', 237), (u'also', 229), (u're', 223), (u'going', 221), (u'iowa', 218), (u'state', 215), (u'america', 214), (u'former', 213), (u'news', 212), (u'think', 211), (u'illegal', 207), (u'among', 206), (u'hampshire', 203), (u'get', 201), (u'party', 200), (u'great', 198), (u'run', 198), (u'time', 193), (u'real', 192), (u'first', 191), (u'support', 190), (u'primary', 185), (u'say', 181), (u'see', 179), (u'2016', 179), (u'border', 178), (u'gov', 178)]
+# BIGRAMS #
+[(u'donald', u'trump'), (u'new', u'hampshire'), (u'real', u'estate'), (u'jeb', u'bush'), (u'united', u'states'), (u'south', u'carolina'), (u'white', u'house'), (u'estate', u'mogul'), (u'marco', u'rubio'), (u'new', u'york'), (u'fox', u'news'), (u'ted', u'cruz'), (u'trump', u'said'), (u'ben', u'carson'), (u'scott', u'walker'), (u'rand', u'paul'), (u'presidential', u'candidate'), (u'illegal', u'immigration'), (u'hillary', u'clinton'), (u'primary', u'voters'), (u'republican', u'party'), (u'des', u'moines'), (u'mike', u'huckabee'), (u'former', u'florida'), (u'republican', u'presidential'), (u'chris', u'christie'), (u'america', u'great'), (u'carly', u'fiorina'), (u'rick', u'perry'), (u'illegal', u'immigrants'), (u'make', u'america'), (u'exploratory', u'committee'), (u'sen', u'marco'), (u'republican', u'primary'), (u'lindsey', u'graham'), (u'ronald', u'reagan'), (u'bernie', u'sanders'), (u'sen', u'ted'), (u'percentage', u'points'), (u'mitt', u'romney')]
+# TRIGRAMS #
+[(u'donald', u'trump', u'said'), (u'candidate', u'donald', u'trump'), (u'donald', u'trump', u'says'), (u'donald', u'trump', u'told'), (u'businessman', u'donald', u'trump'), (u'mogul', u'donald', u'trump'), (u'star', u'donald', u'trump'), (u'donald', u'trump', u'spoke'), (u'hill', u'donald', u'trump'), (u'executive', u'donald', u'trump'), (u'salute', u'donald', u'trump'), (u'donald', u'trump', u'took'), (u'donald', u'trump', u'made'), (u'file', u'donald', u'trump'), (u'donald', u'trump', u'joins'), (u'cnn', u'donald', u'trump'), (u'entrepreneur', u'donald', u'trump'), (u'news', u'donald', u'trump'), (u'donald', u'trump', u'leads'), (u'donald', u'trump', u'pledged')]
+# Sentiment #
+{'positive': 3040.696, 'negative': 2137.179, 'subjective': 5177.875, 'objective': 64071.125, 'total': 14.716125, }
+
+------Scott Walker------
+25930
+3896
+_______________________
+# 20 Most Common Words #
+[(u'walker', 260), (u'scott', 150), (u'state', 143), (u'president', 127), (u'governor', 112), (u'0px', 81), (u'america', 69), (u'clinton', 69), (u'government', 69), (u'0', 68), (u'wisconsin', 67), (u'2015', 66), (u'need', 66), (u'one', 65), (u'today', 64), (u'scottwalker', 63), (u'gov', 60), (u'day', 60), (u'iran', 58), (u'washington', 57), (u'back', 56), (u'new', 54), (u'people', 54), (u'campaign', 53), (u'hillary', 52), (u'get', 52), (u'obama', 51), (u'republican', 51), (u'first', 50), (u'big', 49), (u'american', 48), (u'july', 48), (u'like', 46), (u'us', 45), (u'years', 44), (u'plan', 43), (u'time', 42), (u'reforms', 40), (u'country', 39), (u'house', 39), (u'county', 38), (u'said', 38), (u'com', 38), (u'support', 37), (u'leadership', 37), (u'work', 36), (u'americans', 36), (u'great', 36), (u'deal', 35), (u'states', 35)]
+# BIGRAMS #
+[(u'scott', u'walker'), (u'hillary', u'clinton'), (u'pic', u'twitter'), (u'twitter', u'com'), (u'walker', u'scottwalker'), (u'governor', u'walker'), (u'new', u'hampshire'), (u'president', u'obama'), (u'gov', u'scott'), (u'united', u'states'), (u'health', u'care'), (u'union', u'bosses'), (u'text', u'stroke'), (u'webkit', u'text'), (u'special', u'interests'), (u'planned', u'parenthood'), (u'stroke', u'000000'), (u'scottwalker', u'august'), (u'big', u'government'), (u'hard', u'working'), (u'day', u'one'), (u'following', u'statement'), (u'governor', u'scott'), (u'cedar', u'rapids'), (u'scottwalker', u'july'), (u'big', u'bold'), (u'status', u'quo'), (u'walker16', u'pic'), (u'town', u'hall'), (u'madison', u'wis'), (u'radical', u'islamic'), (u'wreak', u'havoc'), (u'kerning', u'none'), (u'0px', u'font'), (u'video', u'container'), (u'foreign', u'policy'), (u'four', u'years'), (u'walker', u'released'), (u'white', u'house'), (u'south', u'carolina')]
+# TRIGRAMS #
+[(u'scott', u'walker', u'scottwalker'), (u'gov', u'scott', u'walker'), (u'governor', u'scott', u'walker'), (u'scott', u'walker', u'released'), (u'scott', u'walker', u'today'), (u'walker16', u'scott', u'walker'), (u'scott', u'walker', u'inc'), (u'like', u'scott', u'walker'), (u'pic', u'twitter', u'com'), (u'walker16', u'pic', u'twitter'), (u'walker', u'scottwalker', u'august'), (u'walker', u'scottwalker', u'july'), (u'walker', u'scottwalker', u'september'), (u'webkit', u'text', u'stroke'), (u'obama', u'hillary', u'clinton'), (u'like', u'hillary', u'clinton'), (u'text', u'stroke', u'000000'), (u'governor', u'walker', u'made'), (u'governor', u'walker', u'commented'), (u'today', u'governor', u'walker')]
+# Sentiment #
+{'positive': 568.875, 'negative': 341.25, 'subjective': 910.125, 'objective': 11901.875, 'total': 12.9375, }
+
+
+----------Mike Huckabee---------
+34002
+5707
+_______________________
+# 20 Most Common Words #
+[(u'huckabee', 336), (u'county', 273), (u'president', 146), (u'american', 123), (u'obama', 112), (u'mike', 103), (u'chair', 101), (u'people', 96), (u'team', 89), (u'iran', 89), (u'm', 86), (u'time', 85), (u'deal', 82), (u'america', 81), (u'would', 79), (u'leadership', 73), (u'said', 73), (u'governor', 72), (u'americans', 66), (u'iowa', 65), (u'presidential', 63), (u'com', 63), (u'marriage', 61), (u'one', 59), (u'liberty', 59), (u'religious', 58), (u'washington', 58), (u'gov', 58), (u'life', 55), (u'state', 55), (u'campaign', 54), (u'candidate', 53), (u'court', 53), (u'government', 52), (u'today', 52), (u'israel', 51), (u'supreme', 50), (u'republican', 49), (u'street', 48), (u'30', 46), (u'also', 45), (u'gop', 45), (u'need', 44), (u'stand', 44), (u'states', 42), (u'god', 42), (u'many', 41), (u'former', 41), (u'congress', 41), (u'us', 41)]
+# BIGRAMS #
+[(u'mike', u'huckabee'), (u'county', u'chair'), (u'leadership', u'team'), (u'religious', u'liberty'), (u'president', u'obama'), (u'supreme', u'court'), (u'county', u'leadership'), (u'south', u'carolina'), (u'former', u'arkansas'), (u'mikehuckabee', u'com'), (u'social', u'security'), (u'planned', u'parenthood'), (u'kim', u'davis'), (u'presidential', u'candidate'), (u'united', u'states'), (u'judicial', u'tyranny'), (u'originally', u'ran'), (u'little', u'rock'), (u'iowato', u'rsvp'), (u'arkansas', u'governor'), (u'team', u'huck'), (u'please', u'click'), (u'gov', u'huckabee'), (u'sex', u'marriage'), (u'rock', u'ark'), (u'middle', u'east'), (u'american', u'workers'), (u'hillary', u'clinton'), (u'huck', u'stops'), (u'article', u'originally'), (u'gop', u'presidential'), (u'town', u'hall'), (u'governor', u'mike'), (u'des', u'moines'), (u'main', u'street'), (u'http', u'www'), (u'wall', u'street'), (u'republican', u'presidential'), (u'iran', u'deal'), (u'moral', u'clarity')]
+# TRIGRAMS #
+[(u'governor', u'mike', u'huckabee'), (u'candidate', u'mike', u'huckabee'), (u'gov', u'mike', u'huckabee'), (u'county', u'leadership', u'team'), (u'mike', u'huckabee', u'announced'), (u'mike', u'huckabee', u'released'), (u'mike', u'huckabee', u'time'), (u'huck', u'mike', u'huckabee'), (u'com', u'mike', u'huckabee'), (u'mike', u'huckabee', u'welcome'), (u'mike', u'huckabee', u'made'), (u'nation', u'mike', u'huckabee'), (u'mike', u'huckabee', u'today'), (u'wagner', u'county', u'chair'), (u'county', u'chair', u"'homeschoolers"), (u'county', u'chair', u"'veterans"), (u'county', u'chair', u'david'), (u'aswegan', u'county', u'chair'), (u'borwey', u'county', u'chair'), (u'parker', u'county', u'chair')]
+# Sentiment #
+{'positive': 655.319, 'negative': 576.556, 'subjective': 1231.875, 'objective': 15432.125, 'total': -2.125, }
+
+
+--------Jeb Bush--------
+55395
+6420
+_______________________
+# 20 Most Common Words #
+[(u'tax', 313), (u'jeb', 251), (u'bush', 158), (u'people', 149), (u'veterans', 145), (u'state', 142), (u'president', 139), (u'florida', 139), (u'governor', 136), (u'one', 123), (u'would', 119), (u'time', 114), (u'new', 111), (u'percent', 111), (u'need', 105), (u'years', 93), (u'income', 92), (u'america', 87), (u'states', 86), (u'american', 86), (u'u', 85), (u'government', 84), (u'enemy', 81), (u'va', 80), (u'4', 79), (u'growth', 78), (u'care', 77), (u'million', 75), (u'2', 74), (u'get', 74), (u'rate', 73), (u'every', 72), (u'work', 71), (u'also', 70), (u'1', 70), (u'united', 70), (u'country', 69), (u'000', 69), (u'life', 67), (u'first', 67), (u'make', 66), (u'nation', 65), (u'm', 65), (u'many', 64), (u'washington', 64), (u'county', 64), (u'us', 63), (u'taxes', 63), (u'right', 62), (u'federal', 62)]
+# BIGRAMS #
+[(u'united', u'states'), (u'jeb', u'bush'), (u'http', u'www'), (u'tax', u'code'), (u'governor', u'bush'), (u'hillary', u'clinton'), (u'tax', u'return'), (u'county', u'chair'), (u'tax', u'rate'), (u'south', u'carolina'), (u'president', u'obama'), (u'des', u'moines'), (u'health', u'care'), (u'private', u'sector'), (u'new', u'jobs'), (u'new', u'normal'), (u'economic', u'growth'), (u'low', u'income'), (u'hospital', u'insurance'), (u'middle', u'class'), (u'air', u'force'), (u'sgt', u'davis'), (u'retired', u'rank'), (u'conspicuous', u'gallantry'), (u'urban', u'league'), (u'million', u'new'), (u'income', u'tax'), (u'enemy', u'fire'), (u'middle', u'east'), (u'eight', u'years'), (u'national', u'guard'), (u'highest', u'traditions'), (u'col', u'thorsness'), (u'ronald', u'reagan'), (u'steering', u'committee'), (u'barack', u'obama'), (u'veterans', u'affairs'), (u'trust', u'fund'), (u'pic', u'twitter'), (u'marine', u'corps')]
+# TRIGRAMS #
+[(u'united', u'states', u'disengaged'), (u'united', u'states', u'army'), (u'united', u'states', u'naval'), (u'united', u'states', u'must'), (u'united', u'states', u'jeb'), (u'governor', u'jeb', u'bush'), (u'jeb', u'bush', u'jebbush'), (u'jeb', u'bush', u'thank'), (u'jeb', u'bush', u'signed'), (u'jeb', u'bush', u'released'), (u'jeb', u'bush', u'continues'), (u'home', u'jeb', u'bush'), (u'gov', u'jeb', u'bush'), (u'jeb', u'bush', u'began'), (u'presidency', u'jeb', u'bush'), (u'hug', u'jeb', u'bush'), (u'jeb', u'bush', u'subject'), (u'jeb', u'bush', u'jeb'), (u'2014', u'http', u'www'), (u'2015', u'http', u'www')]
+# Sentiment #
+{'positive': 1390.4879999999998, 'negative': 954.3870000000001, 'subjective': 2344.875, 'objective': 25557.125, 'total': 4.900375, }
+
+
+
+
+
+-----Rand Paul-------
+38750
+5832
+_______________________
+# 20 Most Common Words #
+[(u'paul', 565), (u'rand', 261), (u'said', 175), (u'government', 149), (u'republican', 131), (u'sen', 122), (u'tax', 114), (u'2015', 111), (u'presidential', 108), (u'president', 99), (u'candidate', 96), (u'would', 89), (u'click', 86), (u'people', 85), (u'one', 83), (u'washington', 83), (u'senate', 82), (u'senator', 80), (u'http', 75), (u'act', 72), (u'com', 72), (u'article', 72), (u'new', 72), (u'campaign', 70), (u'state', 68), (u'trump', 67), (u'full', 61), (u'continue', 60), (u'read', 59), (u'american', 57), (u'patriot', 57), (u'americans', 56), (u'www', 54), (u'also', 54), (u'former', 53), (u'plan', 53), (u'time', 52), (u'clinton', 52), (u'reading', 52), (u'like', 52), (u'liberty', 50), (u'r', 47), (u'federal', 47), (u'county', 47), (u'national', 47), (u'iowa', 47), (u'make', 46), (u'gop', 46), (u'kentucky', 46), (u'states', 44)]
+# BIGRAMS #
+[(u'rand', u'paul'), (u'patriot', u'act'), (u'http', u'www'), (u'full', u'article'), (u'continue', u'reading'), (u'sen', u'rand'), (u'article', u'http'), (u'planned', u'parenthood'), (u'hillary', u'clinton'), (u'new', u'hampshire'), (u'donald', u'trump'), (u'hillsborough', u'county'), (u'fourth', u'amendment'), (u'phone', u'records'), (u'presidential', u'candidate'), (u'national', u'security'), (u'paul', u'said'), (u'washington', u'machine'), (u'united', u'states'), (u'ron', u'paul'), (u'bulk', u'collection'), (u'supreme', u'court'), (u'county', u'activist'), (u'senate', u'floor'), (u'highland', u'park'), (u'flat', u'tax'), (u'criminal', u'justice'), (u'big', u'government'), (u'tax', u'code'), (u'civil', u'liberties'), (u'security', u'agency'), (u'senator', u'rand'), (u'american', u'dream'), (u'state', u'representative'), (u'republican', u'presidential'), (u'eminent', u'domain'), (u'white', u'house'), (u'president', u'obama'), (u'senior', u'adviser'), (u'jeb', u'bush')]
+# TRIGRAMS #
+[(u'sen', u'rand', u'paul'), (u'rand', u'paul', u'said'), (u'senator', u'rand', u'paul'), (u'politics', u'rand', u'paul'), (u'hopeful', u'rand', u'paul'), (u'rand', u'paul', u'took'), (u'exclusive', u'rand', u'paul'), (u'rand', u'paul', u'speaks'), (u'candidate', u'rand', u'paul'), (u'2015sen', u'rand', u'paul'), (u'rand', u'paul', u'today'), (u'rand', u'paul', u'may'), (u'rand', u'paul', u'vowed'), (u'support', u'rand', u'paul'), (u'rand', u'paul', u'made'), (u'rand', u'paul', u'filibuster'), (u'said', u'rand', u'paul'), (u'republican', u'rand', u'paul'), (u'article', u'http', u'www'), (u'full', u'article', u'http')]
+# Sentiment #
+{'positive': 767.181, 'negative': 507.694, 'subjective': 1274.875, 'objective': 18253.125, 'total': 4.65625, }
